@@ -30,4 +30,4 @@ Before syncing the repositories, ensure you have the following installed on your
 
 3. **Sync source:**
     ```bash
-     repo sync -j8
+     repo sync -j32

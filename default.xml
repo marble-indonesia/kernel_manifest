@@ -3,15 +3,15 @@
   <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
   <remote name="clo" fetch="https://git.codelinaro.org/clo/la" review="codelinaro.org"/>
   <remote name="github" fetch="https://github.com/"/>
-  <remote name="pavelc4" fetch="https://github.com/pavelc4-playground/"/>
+  <remote name="marble-indonesia" fetch="https://github.com/marble-indonesia/kernel_xiaomi_sm8450/"/>
 
-  <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
+  <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="32"/>
 
   <project name="pa-gr/android_kernel_build" path="kernel_platform/build" remote="github" revision="uvite-xiaomi-sm8450"/>
   <project name="pa-gr/android_kernel_prebuilts_build-tools" path="kernel_platform/prebuilts/kernel-build-tools" remote="github" revision="uvite-xiaomi-sm8450"/>
-  <project name="android_kernel_xiaomi_sm8450" path="kernel_platform/xiaomi/sm8450" remote="pavelc4" revision="lineage-22.2-staging-susfs"/>
-  <project name="android_kernel_xiaomi_sm8450-devicetrees" path="kernel_platform/xiaomi/sm8450-devicetrees" remote="pavelc4" revision="lineage-22.2"/>
-  <project name="android_kernel_xiaomi_sm8450-modules" path="kernel_platform/xiaomi/sm8450-modules" remote="pavelc4" revision="lineage-22.2"/>
+  <project name="kernel_xiaomi_sm8450" path="kernel_platform/xiaomi/sm8450" remote="marble-indonesia" revision="zetta-6996"/>
+  <project name="kernel_xiaomi_sm8450-devicetrees" path="kernel_platform/xiaomi/sm8450-devicetrees" remote="marble-indonesia" revision="zetta-6996"/>
+  <project name="kernel_xiaomi_sm8450-modules" path="kernel_platform/xiaomi/sm8450-modules" remote="marble-indonesia" revision="zetta-6996"/>
   <project name="pa-gr/kernel_manifest" path="manifest" remote="github" revision="uvite-xiaomi-sm8450"/>
   <project name="kernel_platform/external/dtc" revision="refs/heads/kernel.build.lnx.1.0.r1-rel"/>
   <project name="kernel_platform/prebuilts/build-tools" revision="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
