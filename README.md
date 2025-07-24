@@ -26,7 +26,7 @@ Before syncing the repositories, ensure you have the following installed on your
 2. **Initialize repo with manifest:**
 
    ```bash
-     repo init -u https://github.com/pavelc4-playground/kernel_manifest.git -b lineage-22.2 
+     repo init -u https://github.com/marble-indonesia/kernel_manifest.git -b lineage-22.2 
 
 3. **Sync source:**
     ```bash
